@@ -4,8 +4,13 @@ namespace FirstProject.Controllers;
 
 public class HomeController : Controller
 {
-    public ViewResult Index()
+    public IActionResult Index()
     {
-        return View("MyView");
+        return View();
+    }
+
+    public ViewResult RsvpForm()
+    {
+        return View();
     }
 }
